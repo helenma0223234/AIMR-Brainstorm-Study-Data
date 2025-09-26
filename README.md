@@ -32,33 +32,6 @@ participant_id,condition,engagement_score,creativity_score,usability_score,prefe
 2,sticky,3.2,3.5,3.9,sticky
 2,aimr,4.5,4.6,4.2,aimr
 3,sticky,3.7,3.9,4.0,aimr
-
-### `merged_data.csv`
-
-- **Rows:** ~30 (one per participant/condition)  
-- **Description:** Contains survey responses, demographic info, engagement/creativity ratings, and preference data.  
-
-**Schema**
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `participant_id` | int | Unique anonymized participant ID |
-| `condition` | string | `sticky` or `aimr` (brainstorming condition) |
-| `engagement_score` | float | Likert-scale engagement rating |
-| `creativity_score` | float | Likert-scale perceived creativity |
-| `usability_score` | float | Usability rating |
-| `preference` | string | Participant’s preferred system |
-| … | … | Additional measures (see paper) |
-
-**Preview (first 5 rows)**
-
-```text
-participant_id,condition,engagement_score,creativity_score,usability_score,preference
-1,sticky,3.5,3.8,4.0,aimr
-1,aimr,4.4,4.7,4.1,aimr
-2,sticky,3.2,3.5,3.9,sticky
-2,aimr,4.5,4.6,4.2,aimr
-3,sticky,3.7,3.9,4.0,aimr
 ```
 
 ### `merged_data.csv`
