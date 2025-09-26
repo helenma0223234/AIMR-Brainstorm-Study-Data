@@ -59,6 +59,7 @@ participant_id,condition,engagement_score,creativity_score,usability_score,prefe
 2,sticky,3.2,3.5,3.9,sticky
 2,aimr,4.5,4.6,4.2,aimr
 3,sticky,3.7,3.9,4.0,aimr
+```
 
 ### `merged_data.csv`
 
@@ -67,12 +68,14 @@ participant_id,condition,engagement_score,creativity_score,usability_score,prefe
 
 **Preview (first 5 rows)**
 
+```
 participant_id,condition,mental_demand,physical_demand,temporal_demand,performance,effort,frustration
 1,sticky,45,20,40,70,50,35
 1,aimr,40,25,45,75,48,30
 2,sticky,42,22,41,68,49,34
 2,aimr,38,21,39,73,46,29
 3,sticky,44,19,42,72,51,36
+```
 
 
 
